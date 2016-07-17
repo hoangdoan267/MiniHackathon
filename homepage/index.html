@@ -1,27 +1,147 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta viewport="width = devidce-width, initial-scale = 1">
 	<title>Amore</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="libs/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="libs/css/sample.css">
+	<link rel="stylesheet" type="text/css" href="libs/css/style.css">
 	<link rel="stylesheet" type="text/css" href="libs/css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="libs/css/footer.css">
-	<link rel="stylesheet" type="text/css" href="libs/css/style.css">
 
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script type="text/javascript" src="libs/js/slick.js"></script>
 	<script type="text/javascript" src="libs/js/script.js"></script>
 
 </head>
 	<body>
 		<!--This is a header + navbar, write your code below -->
+		<header class="header">
+			<nav class="header-nav-mobile">
+				<img src="libs/img/logo.png">
+				<div class="nav-button" id="dropdown-button">
+					<div></div>
+					<div></div>
+					<div></div>					
+				</div>
+				<nav class="dropdown-menu" id="dropdown-menu">
+					<ul>
+						<li><a href="#"><img src="libs/img/suitcase.png"> DỊCH VỤ</a></li>
+						<li><a href="#"><img src="libs/img/suitcase.png"> DỰ ÁN</a></li>
+						<li><a href="#"><img src="libs/img/information.png"> TRIẾT LÝ</a></li>
+						<li><a href="#"><img src="libs/img/shopping-cart.png"> CỬA HÀNG</a></li>
+						<li><a href="#"><img src="libs/img/writing.png"> CẨM NANG</a></li>
+						<li><a href="#"><img src="libs/img/envelope.png"> LIÊN HỆ</a></li>
+						<li><a href="#"><img src="libs/img/envelope.png"> 0123456789</a></li>
+					</ul>
+				</nav>
+			</nav>
 
-		<!--Your code start here
+			<nav class="header-nav-desktop">
+				<img src="libs/img/logo.png">
+					<ul>
+						<li><a href="#"> DỊCH VỤ</a></li>
+						<li><a href="#"> DỰ ÁN</a></li>
+						<li><a href="#"> TRIẾT LÝ</a></li>
+						<li><a href="#"> CỬA HÀNG</a></li>
+						<li><a href="#">CẨM NANG</a></li>
+						<li><a href="#">LIÊN HỆ</a></li>
+						<li><a href="#">0123456789</a></li>
+					</ul>
+			</nav>
+		</header>
+		<!--Your code start here -->
+		<section class="page-block img-block banner-block">
+			<h1>CHÚC MỪNG!</h1>
+			<div class="decor-line">
+				<img src="libs/img/line_deco.png">
+			</div>
+			<h4>Nếu bạn muốn có một căn chung cư mơ ước bạn đến đúng chỗ rồi đấy!</h4>
+			<button>BẮT ĐẦU DỰ</button>
+		</section>
 
+		<section class="page-block article-block">
+			<h1>XÂY NHÀ THỰC SỰ RẤT KHÓ!</h1>
+			<div class="decor-line">
+				<img src="libs/img/line_deco_black.png">
+			</div>
+			<div class="article-content">
 
+				<div class="content-block">
+					<div class="article-text">
+						<h3>Bạn không biết bắt đầu từ đâu</h3>
+						<p>Bạn không biết nên thuê đội thợ nào để làm, bạn không biết mua sắm đồ nội thất ở đâu, bạn không biết những bản vẽ kĩ thuật mà bạn được nhận từ chủ đầu tư thể hiện những cái gì?
+						</p>
+					</div>
+					<div class="article-text">
+						<h3>Bạn bị căng thẳng vì khối lượng công việc quá lớn</h3>
+						<p>Bạn căng thẳng khi phải nhận 20 - 30 cuộc gọi điện mỗi ngày: cuộc gọi từ thợ làm tủ bếp, từ thợ sơn, thợ lắp điều hòa, từ bên bán nội thất, từ vợ hay chồng của bạn, tttừ đứa con mà bạn phải ở nhà coi thợ, từ một gã dở hơi bên bất động sản tưởng là bạn vẫn chưa tìm được nhà
+						</p>
+					</div>
+					<div class="article-text">
+						<h3>Bạn nghĩ là nhà bạn sẽ đẹp nhưng thực ra không phải vậy</h3>
+						<p>Trước khi xây nhà bạn và chồng của bạn có rất nhiều ý tưởng tuyệt vời để xây một tổ ấm mơ ước, tuy vậy khi bắt tay vào mua đồ mới biết để có một nội thất ưng ý giá thành hợp lý thì phải đi trên dưới một tá đơn vị nội thất, ngay cả khi mua đồ ưng ý rồi về xếp vào nhà thì thấy đồ cũng chẳng ăn nhập gì với bức tường mới sơn.
+						</p>
+					</div>
+				</div>
 
-		-->
+				<div class="article-img">
+					<img src="libs/img/article_1.png">
+				</div>
+
+			</div>
+		</section>
+
+		<section class="page-block article-block article-block-2">
+			<h1>ĐỪNG LO LẮNG QUÁ, CHÚNG TÔI Ở ĐÂY</h1>
+			<div class="decor-line">
+				<img src="libs/img/line_deco_black.png">
+			</div>
+			<div class="article-content">
+
+				<div class="content-block">
+					<div class="article-text">
+						<h3>Chúng tôi sẽ giúp bạn lo từ A đến Z</h3>
+						<p>Từ việc lên concept, kiểm soát việc thi công hay mua sắm đồ đạc cùng gia chủ, chúng tôi luôn đồng hành cùng bạn.
+						</p>
+					</div>
+					<div class="article-text">
+						<h3>Chúng tôi tiết kiệm thời gian và tiền bạc cho bạn</h3>
+						<p>Quy trình của chúng tôi tiết kiệm cho bạn 6 tiếng mỗi ngày và 20% chi phí trung bình so với việc tự làm ở nhà.
+						</p>
+					</div>
+					<div class="article-text">
+						<h3>Chúng tôi tiết kiệm thời gian và tiền bạc cho bạn</h3>
+						<p>Với kinh nghiệm hơn 10 năm thiết kế chung cư, chúng tôi tự hào là giải pháp thẩm mĩ tốt nhất cho căn chung cư của bạn
+						</p>
+					</div>
+				</div>
+
+				<div class="article-img">
+					<img src="libs/img/article_2.png">
+				</div>
+
+			</div>
+		</section>
+
+		<section class="page-block img-block different-point-block">
+			<h1>ĐIỂM KHÁC BIỆT</h1>
+			<div class="decor-line">
+				<img src="libs/img/line_deco.png">
+			</div>
+			<div class="different-point-content">
+				<p><strong>“Chúng tôi là công ty duy nhất trên thị trường chuyên môn về thiết kế chung cư. </strong></p>
+				<p>Chúng tôi không thiết kế nhà phố, biệt thự hay văn phòng, … không phải vì chúng tôi không thể mà bởi vì chúng tôi tin giá trị tốt nhất đến từ sự tập trung, hay như ông bà ta nói: Một nghề cho chín còn hơn chín nghề”</p>
+				<p>Đinh Quang Huy, Đồng sáng lập và CEO, Amore Architect</p>
+			</div>
+		</section>
 
 		<!--This is a footer, write your code above -->
-
+		<footer>
+			
+		</footer>
 
 	</body>
 </html>
