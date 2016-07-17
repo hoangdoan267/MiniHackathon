@@ -10,6 +10,8 @@ h1, h2{
 .child-wrap div{
   width: 280px;
   height: 735px;
+  font-weight: 300;
+  font-size: 13.5px;
   border: 1px solid black;
   display: inline-block;
   margin: 42px;
@@ -56,4 +58,25 @@ input[type="button"]{
 .speed{
   font-weight: 700;
   font-size: 13.5px;
+}
+.question{
+  width: 425px;
+  padding-left: 225px;
+}
+.titlequestion{
+  height: 51px;
+  background-color: black;
+  border: 0 none;
+  color: white;
+  margin: auto;
+  font-weight: 700;;
+  font-size: 18px;
+}
+.contentquestion{
+  font-weight: 300;
+  font-size: 18;
+}
+
+.callus{
+  background-image: url("../libs/img/a.jpg");
 }
