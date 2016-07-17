@@ -6,3 +6,40 @@ html{
 body{
 	font-size: 1.4rem;
 }
+
+h1{
+	font-size: 32rem;
+}
+
+h2{
+	font-size: 30rem;
+}
+
+h3{
+	font-size: 24rem;
+}
+
+h4{
+	font-size: 18rem;
+}
+
+p{
+	font-size: 1.4rem;
+}
+
+a{
+	text-decoration: none;
+}
+ul,
+li{
+	margin: 0;
+	padding: 0;
+}
+@media(min-width: 1000px){
+	h1{
+		font-size: 48rem;
+	}
+}
+
+
+
