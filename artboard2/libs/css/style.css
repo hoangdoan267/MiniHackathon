@@ -1,0 +1,59 @@
+h1, h2{
+  text-align: center;
+}
+
+.child-wrap{
+  display: block;
+  margin: 0 auto;
+}
+
+.child-wrap div{
+  width: 280px;
+  height: 735px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 42px;
+  border-radius: 10px;
+}
+
+.child-wrap div:nth-child(2){
+  border: 1px solid #ffcc00;
+}
+
+.child-wrap p{
+  text-align: center;
+  margin: 40px;
+}
+
+.titlechild{
+  font-weight: 700;
+  font-size: 22.5px;
+}
+
+.contentchild{
+  font-weight: 300;
+  font-size: 13.5;
+}
+
+.attribute{
+  font-weight: 300;
+  font-size: 27;
+}
+
+input[type="button"]{
+  display: block;
+  margin: 0 auto;
+  background-color: #ffcc00;
+  width: 206px;
+  height: 43px;
+  border-radius: 10px;
+  border: 0 none;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: white;
+}
+
+.speed{
+  font-weight: 700;
+  font-size: 13.5px;
+}
